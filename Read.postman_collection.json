@@ -1,0 +1,37 @@
+{
+	"id": "7318955e-0bf4-af1c-1c57-feda09d840ad",
+	"name": "Read",
+	"description": "",
+	"order": [
+		"5db01e65-d21c-80d3-7649-2c0daef4881a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1514790670452,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "5db01e65-d21c-80d3-7649-2c0daef4881a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{host}}/api/v1/portal/random-content",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1514808479741,
+			"name": "获取随机的一条内容详情",
+			"description": "",
+			"collectionId": "7318955e-0bf4-af1c-1c57-feda09d840ad",
+			"responses": []
+		}
+	]
+}
